@@ -20,8 +20,11 @@ const Main = ({children}) => {
   return (
     <div>
       <Nav />
-      <h2>Main Component</h2>
-      {children}  {/* Comes from React Router */ }
+      <div className="row">
+        <div className="columns medium-6 large-4 small-centered">
+          {children}  {/* Comes from React Router */ }
+        </div>
+      </div>
     </div>
   );
 }

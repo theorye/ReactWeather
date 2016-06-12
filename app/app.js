@@ -8,7 +8,8 @@ import About from './components/About';
 import Examples from './components/Examples';
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
+//require('style!css!foundation-sites/dist/foundation.min.css');
+import 'style!css!foundation-sites/dist/foundation.min.css'
 
 $(document).foundation();
 
