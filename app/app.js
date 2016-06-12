@@ -2,7 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 
-import Main from './components/Main';
+//import Main from './components/Main';
+import Main from 'Main';
+
+
 import Weather from './components/Weather';
 import About from './components/About';
 import Examples from './components/Examples';
