@@ -12,6 +12,7 @@ const Examples = (props) => {
   return (
     <div>
       <h3>EXAMPLES</h3>
+      <p>Examples</p>
     </div>
   );
 }
