@@ -11,7 +11,7 @@ import React from 'react';
 const Examples = (props) => {
   return (
     <div>
-      <h3>EXAMPLESSSSSS</h3>
+      <h3>EXAMPLES</h3>
     </div>
   );
 }
