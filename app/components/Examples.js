@@ -10,7 +10,10 @@ import React from 'react';
 
 var Examples = (props) => {
   return (
-    <h3>EXAMPLESSSSSS</h3>
+    <div>
+      <h3>EXAMPLESSSSSS</h3>
+    </div>
+
   );
 }
 

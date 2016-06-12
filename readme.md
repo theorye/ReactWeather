@@ -1,1 +1,2 @@
-React Weather Application
+# ReactWeather
+A simple React application
