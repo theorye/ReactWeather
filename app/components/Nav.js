@@ -14,7 +14,7 @@ import { Link, IndexLink } from 'react-router';
 //   }
 // });
 
-var Nav = (props) => {
+const Nav = (props) => {
   return (
     <div>
       <h2>nav component</h2>
@@ -25,4 +25,4 @@ var Nav = (props) => {
   );
 }
 
-module.exports = Nav;
+export default Nav;

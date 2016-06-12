@@ -22,4 +22,4 @@ const WeatherMessage = ({temp, location}) => {
   );
 }
 
-module.exports = WeatherMessage;
+export default WeatherMessage;

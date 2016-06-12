@@ -8,10 +8,10 @@ import React from 'react';
 //   }
 // });
 // Stateless Functional Component
-var About = (props) => {
+const About = (props) => {
   return (
     <h3>About</h3>
   );
 };
 
-module.exports = About;
+export default About;

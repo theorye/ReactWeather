@@ -1,10 +1,10 @@
 import React from 'react';
 
-var WeatherForm = React.createClass({
+const WeatherForm = React.createClass({
   onFormSubmit: function(e) {
     e.preventDefault();
 
-    var location = this.refs.location.value;
+    let location = this.refs.location.value;
 
     if(location.length > 0 ) {
       this.refs.location.value = '';
@@ -23,4 +23,4 @@ var WeatherForm = React.createClass({
   }
 });
 
-module.exports = WeatherForm;
+export default WeatherForm;

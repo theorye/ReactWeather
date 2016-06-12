@@ -8,20 +8,19 @@ import WeatherMessage from './WeatherMessage';
 // API
 import openWeatherMap from '../api/openWeatherMap';
 
-var Weather = React.createClass({
+const Weather = React.createClass({
   getInitialState: function() {
     return {
       isLoading: false
     }
   },
   handleSearch: function (location) {
-    var self = this;
+    const self = this;
 
     this.setState({
       isLoading: true
     });
 
-    debugger;
     openWeatherMap.getTemp(location).then(function (temp) {
       self.setState({
         location: location,
@@ -63,4 +62,4 @@ var Weather = React.createClass({
   }
 });
 
-module.exports = Weather;
+export default Weather;

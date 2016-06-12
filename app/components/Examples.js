@@ -8,13 +8,12 @@ import React from 'react';
 //   }
 // });
 
-var Examples = (props) => {
+const Examples = (props) => {
   return (
     <div>
       <h3>EXAMPLESSSSSS</h3>
     </div>
-
   );
 }
 
-module.exports = Examples;
+export default Examples;

@@ -16,7 +16,7 @@ import Nav from './Nav';
 //   }
 // });
 
-var Main = ({children}) => {
+const Main = ({children}) => {
   return (
     <div>
       <Nav />
@@ -26,4 +26,4 @@ var Main = ({children}) => {
   );
 }
 
-module.exports = Main;
+export default Main;
