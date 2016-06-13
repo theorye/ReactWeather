@@ -11,7 +11,7 @@ import {Link} from 'react-router';
 const Examples = (props) => {
   return (
     <div>
-      <h1 className="text-center">EXAMPLES</h1>
+      <h1 className="text-center page-title">EXAMPLES</h1>
       <p>Here are a few example locations to try out</p>
       <ol>
         <li>
